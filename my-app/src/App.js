@@ -9,7 +9,9 @@ function App() {
         <h2>HI this is testing2</h2>
 
         <h1>HI this is testing</h1>
-        <Person/>
+        <Person name="Vansh" age="25"/>
+        <Person name="chirag" age="25.5"> Working in TCS </Person>
+        <Person name="Rahul" age="27"/>
     </div>
   );
 }
