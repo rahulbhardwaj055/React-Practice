@@ -6,13 +6,12 @@ const person = (props) => {
         <div>
             <p> Hi I am a {props.name} my age is {props.age} </p>
             <p> {props.children}</p>
-
-            <span>
-                <p> Hi I am a {props.name} my age is {props.age} </p>
-                <p> {props.children}</p>
-            </span>
         </div>
 
+        <span>
+            <p> Hi I am a {props.name} my age is {props.age} </p>
+            <p> {props.children}</p>
+        </span>
     )
 }
 
