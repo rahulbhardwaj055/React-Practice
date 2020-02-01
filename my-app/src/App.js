@@ -4,16 +4,28 @@ import './App.css';
 import Person from './Person/person';
 
 function App() {
-  return (
-    <div className="App">
-        <h2>HI this is testing2</h2>
+    state = {
+        persons [
+            { name:'Max', age: 37 }
+            { name:'vansh' , age: 25 }
+            { name: 'Rahul' , age:27 }
+        ]
+    }
 
-        <h1>HI this is testing</h1>
-        <Person name="Vansh" age="25"/>
-        <Person name="chirag" age="25.5"> Working in TCS </Person>
-        <Person name="Rahul" age="27"/>
-    </div>
-  );
+
+
+    render(){
+        return (
+            <div className="App">
+                <h2>HI this is testing2</h2>
+                <h1>HI this is testing</h1>
+                <Person name={this.state.persons[0].name} age={this.state.age[0].name}/>
+                <Person name={this.state.persons[1].name} age={this.state.age[1].name}> Working in TCS </Person>
+                <Person name={this.state.persons[2].name} age={this.state.age[2].name}/>
+            </div>
+        );
+
+    }
 }
 
 export default App;
