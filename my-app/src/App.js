@@ -12,7 +12,8 @@ function App() {
         ]
     }
 
-    render(){
+    render()
+    {
         return (
             <div className="App">
                 <h2>HI this is testing2</h2>
