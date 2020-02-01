@@ -6,8 +6,8 @@ import Person from './Person/person';
 function App() {
     state = {
         persons: [
-            { name:'Max', age: 37 }
-            { name:'vansh' , age: 25 }
+            { name:'Max', age: 37 },
+            { name:'vansh' , age: 25 },
             { name: 'Rahul' , age:27 }
         ]
     }
